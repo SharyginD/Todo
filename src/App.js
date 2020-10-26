@@ -1,11 +1,15 @@
 import React from 'react';
+import "./App.css";
+import Todo from "./components/todo/Todo";
+import Header from "./components/header/Header";
 
-function App() {
+const App = () => {
     return (
-        <div>
-
-        </div>
-    );
-}
+        <React.Fragment>
+            <Header/>
+            <Todo/>
+        </React.Fragment>
+    )
+};
 
 export default App;

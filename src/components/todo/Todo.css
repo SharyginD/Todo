@@ -1,0 +1,15 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 600px;
+    max-height: 900px;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.todo-container h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}

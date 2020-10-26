@@ -1,0 +1,28 @@
+.todo-note {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.todo-note p {
+    width: 550px;
+    padding: 10px;
+    font-size: 20px;
+    color: #3f3f3f;
+    overflow-wrap: break-word;
+}
+
+.todo-note button {
+    border: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e9e9e9;
+    color: #3f3f3f;
+    font-family: sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
