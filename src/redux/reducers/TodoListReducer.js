@@ -1,14 +1,14 @@
 const ADD_NOTE = "ADD_NOTE";
 const DELETE_NOTE = "DELETE_NOTE";
 
-export const addNoteAC = (note) => {
+export const addNote = (note) => {
     return {
         type: ADD_NOTE,
         note
     }
 };
 
-export const deleteNoteAC = (noteId) => {
+export const deleteNote = (noteId) => {
     return {
         type: DELETE_NOTE,
         noteId

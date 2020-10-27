@@ -1,15 +1,13 @@
-import React, {PureComponent} from 'react';
-import {deleteNoteAC} from "../../../redux/reducers/TodoListReducer";
+import React from 'react';
+import {deleteNote} from "../../../redux/reducers/TodoListReducer";
 import TodoList from "./TodoList";
 import {connect} from "react-redux";
 
-class TodoListContainer extends PureComponent {
-    render() {
-        return (
-            <TodoList todo={this.props}/>
-        )
-    }
-}
+const TodoListContainer = React.memo(props => {
+    return (
+        <TodoList todo={props}/>
+    )
+});
 
 let mapStateToProps = (state) => {
     return {
@@ -17,12 +15,4 @@ let mapStateToProps = (state) => {
     }
 };
 
-let mapDispatchToProps = (dispatch) => {
-    return {
-        deleteNote: (noteId) => {
-            dispatch(deleteNoteAC(noteId));
-        }
-    }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(TodoListContainer);
+export default connect(mapStateToProps, {deleteNote})(TodoListContainer);

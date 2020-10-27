@@ -7,7 +7,7 @@
 }
 
 .todo-note p {
-    width: 550px;
+    width: 570px;
     font-size: 20px;
     color: #3f3f3f;
     overflow-wrap: break-word;
@@ -16,6 +16,7 @@
 
 .todo-note button {
     height: 40px;
+    width: 80px;
     border: 0;
     font-size: 20px;
     border-radius: 10px;

@@ -2,10 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 600px;
-    max-height: 900px;
     width: 800px;
-    margin: 100px auto;
+    margin: 60px auto;
 }
 
 .todo-container h1 {

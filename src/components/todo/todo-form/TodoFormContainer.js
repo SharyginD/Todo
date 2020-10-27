@@ -1,23 +1,12 @@
-import React, {PureComponent} from "react";
+import React from "react";
 import TodoForm from "./TodoForm";
 import {connect} from "react-redux";
-import {addNoteAC} from "../../../redux/reducers/TodoListReducer";
+import {addNote} from "../../../redux/reducers/TodoListReducer";
 
-class TodoFormContainer extends PureComponent {
+const TodoFormContainer = React.memo(props => {
+    return (
+        <TodoForm todo={props}/>
+    )
+});
 
-    render() {
-        return (
-            <TodoForm todo={this.props}/>
-        )
-    }
-}
-
-let mapDispatchToProps = (dispatch) => {
-    return {
-        addNote: (note) => {
-            dispatch(addNoteAC(note));
-        }
-    }
-};
-
-export default connect(null, mapDispatchToProps)(TodoFormContainer);
+export default connect(null, {addNote})(TodoFormContainer);
