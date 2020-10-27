@@ -3,18 +3,19 @@
     flex-direction: row;
     justify-content: space-between;
     width: 700px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .todo-note p {
     width: 550px;
-    padding: 10px;
     font-size: 20px;
     color: #3f3f3f;
     overflow-wrap: break-word;
+    padding: 10px;
 }
 
 .todo-note button {
+    height: 40px;
     border: 0;
     font-size: 20px;
     border-radius: 10px;

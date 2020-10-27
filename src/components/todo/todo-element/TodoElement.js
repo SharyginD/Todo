@@ -1,11 +1,11 @@
 import React from 'react';
 import './TodoElement.css';
 
-const TodoElement = () => {
+const TodoElement = (props) => {
     return (
         <div className="todo-note">
-            <p>Hello World</p>
-            <button>Delete</button>
+            <p>{props.note}</p>
+            <button onClick={props.delete}>Delete</button>
         </div>
     )
 };
