@@ -3,26 +3,27 @@
     flex-direction: row;
     justify-content: space-between;
     width: 700px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .todo-note p {
     width: 570px;
+    height: 45px;
     font-size: 20px;
-    color: #3f3f3f;
+    color: #373737;
     overflow-wrap: break-word;
     padding: 10px;
 }
 
 .todo-note button {
-    height: 40px;
+    height: 45px;
     width: 80px;
     border: 0;
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
-    background-color: #e9e9e9;
-    color: #3f3f3f;
+    background-color: #CDCDCD;
+    color: #373737;
     font-family: sans-serif;
     outline: none;
     cursor: pointer;

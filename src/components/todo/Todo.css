@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px;
-    margin: 60px auto;
+    max-width: 800px;
+    min-width: 700px;
+    margin: 50px auto;
 }
 
 .todo-container h1 {
