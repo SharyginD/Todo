@@ -3,10 +3,14 @@
     flex-direction: column;
     align-items: center;
     height: 500px;
-    max-width: 800px;
-    min-width: 700px;
+    width: 700px;
     margin: 50px auto;
     overflow-y: auto;
+}
+
+.todo-container h1 {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .todo-container::-webkit-scrollbar {
@@ -22,10 +26,4 @@
     background-color: #373737;
     border-radius: 10px;
     border: 3px solid #CDCDCD;
-}
-
-
-.todo-container h1 {
-    margin-bottom: 30px;
-    text-align: center;
 }

@@ -1,13 +1,13 @@
 .todo-form {
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 600px;
     margin-bottom: 40px;
 }
 
 .todo-input {
     height: 50px;
-    width: 570px;
+    width: 500px;
     padding: 10px;
     outline: none;
     font-size: 20px;
@@ -28,4 +28,12 @@
     outline: none;
     background-color: #CDCDCD;
     cursor: pointer;
+}
+
+.todo-button:hover {
+    background-color: #B9B9B9;
+}
+
+.todo-button:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) inset;
 }
