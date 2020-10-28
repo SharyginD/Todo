@@ -8,11 +8,11 @@
 
 .todo-note p {
     width: 570px;
-    height: 45px;
+    min-height: 45px;
     font-size: 20px;
     color: #373737;
     overflow-wrap: break-word;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .todo-note button {
