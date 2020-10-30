@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 600px;
+    width: 500px;
     margin-bottom: 20px;
 }
 
 .todo-note p {
-    width: 500px;
+    width: 400px;
     min-height: 45px;
     font-size: 20px;
     color: #373737;
@@ -16,12 +16,12 @@
 }
 
 .todo-note button {
-    height: 45px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     border: 0;
     font-size: 20px;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 5px;
     background-color: #CDCDCD;
     color: #373737;
     font-family: sans-serif;

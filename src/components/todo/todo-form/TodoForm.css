@@ -1,28 +1,37 @@
 .todo-form {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     margin-bottom: 40px;
 }
 
 .todo-input {
-    height: 50px;
+    height: 45px;
     width: 500px;
     padding: 10px;
+    margin-bottom: 20px;
     outline: none;
     font-size: 20px;
     border: 0;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #373737;
     background-color: #CDCDCD;
 }
 
-.todo-button {
-    height: 50px;
-    width: 80px;
+.form-buttons {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    height: 45px;
+    width: 90px;
     padding: 10px;
     border: 0;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 20px;
     color: #373737;
     outline: none;
@@ -30,10 +39,10 @@
     cursor: pointer;
 }
 
-.todo-button:hover {
+.form-buttons button:hover {
     background-color: #B9B9B9;
 }
 
-.todo-button:active {
+.form-buttons button:active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) inset;
 }

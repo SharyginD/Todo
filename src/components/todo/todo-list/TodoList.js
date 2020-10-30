@@ -1,5 +1,6 @@
 import React from 'react';
 import TodoElement from "../todo-element/TodoElement";
+import "./TodoList.css";
 
 const TodoList = (props) => {
 
@@ -12,7 +13,7 @@ const TodoList = (props) => {
 
     return (
         <div className="todo-list">
-            {notes}
+            {notes.length ? notes : <h1>Waiting for new items...</h1>}
         </div>
     )
 };
