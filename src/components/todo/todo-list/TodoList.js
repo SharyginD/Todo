@@ -13,7 +13,7 @@ const TodoList = (props) => {
 
     return (
         <div className="todo-list">
-            {notes.length ? notes : <h1>Waiting for new items...</h1>}
+            {notes.length ? notes : <h1>Waiting for new notes...</h1>}
         </div>
     )
 };

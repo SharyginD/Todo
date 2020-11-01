@@ -8,13 +8,13 @@ const TodoForm = (props) => {
         props.todo.addNote(data.todoText);
     };
 
-    let clearList = () => {
-
+    let clearNotes = () => {
+        props.todo.clearNotes();
     };
 
     return (
         <React.Fragment>
-            <TodoFormRedux onSubmit={addNote} onClick={clearList}/>
+            <TodoFormRedux onSubmit={addNote} clearNotes={clearNotes}/>
         </React.Fragment>
     )
 };
@@ -26,7 +26,7 @@ const Form = (props) => {
                    name={"todoText"} autoComplete="off"/>
             <div className="form-buttons">
                 <button className="todo-button" type="submit">Add</button>
-                <button className="clear-button" onClick={props.onClick}>Clear</button>
+                <button className="clear-button" onClick={props.clearNotes}>Clear</button>
             </div>
         </form>
     )
