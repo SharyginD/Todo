@@ -7,7 +7,7 @@ Todo List is a RactJS PET project for everyone.
 Before you start install:
 
 1) Git
-2) NodeJS
+2) NodeJS and npm
 3) Docker : docker install for Ubuntu https://docs.docker.com/engine/install/ubuntu
 
  Git clone: 
@@ -25,7 +25,7 @@ npm start
 git clone https://github.com/SharyginD/Todo.git
 cd ./Todo
 docker build . -t reactjs
-docker run -it -p 3000:3000 reactjs 
+docker run -d -p 3000:3000 reactjs 
 ```
 
 ## Usage
