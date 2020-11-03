@@ -30,7 +30,7 @@ docker run -it -p 3000:3000 reactjs
 
 ## Usage
 
-This simple app only allows ADD and DELETE your todo notes.
+This simple app only allows ADD, DELETE and CLEAR ALL your todo notes.
 
 The functionality will increase.
 
